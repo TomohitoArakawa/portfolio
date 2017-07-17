@@ -11,6 +11,7 @@
   -webkit-box-shadow: $shadow-card;
   box-shadow: $shadow-card;
   -webkit-transition: $transition-card;
+  -o-transition: $transition-card;
   transition: $transition-card;
   &:before {
     display: block;
@@ -18,6 +19,8 @@
     width: 60px;
     height: 60px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   &--comment {
     @extend .c-card;
@@ -26,6 +29,7 @@
     }
     &.is-move {
       -webkit-transform: translate(-650px, 0);
+      -ms-transform: translate(-650px, 0);
       transform: translate(-650px, 0);
     }
   }
@@ -36,6 +40,7 @@
     }
     &.is-move {
       -webkit-transform: translate(-975px, 0);
+      -ms-transform: translate(-975px, 0);
       transform: translate(-975px, 0);
     }
   }
@@ -46,6 +51,7 @@
     }
     &.is-move {
       -webkit-transform: translate(650px, 0);
+      -ms-transform: translate(650px, 0);
       transform: translate(650px, 0);
     }
   }
@@ -56,6 +62,7 @@
     }
     &.is-move {
       -webkit-transform: translate(-650px, 0);
+      -ms-transform: translate(-650px, 0);
       transform: translate(-650px, 0);
     }
   }
@@ -66,6 +73,7 @@
     }
     &.is-move {
       -webkit-transform: translate(975px, 0);
+      -ms-transform: translate(975px, 0);
       transform: translate(975px, 0);
     }
   }
@@ -76,6 +84,7 @@
     }
     &.is-move {
       -webkit-transform: translate(650px, 0);
+      -ms-transform: translate(650px, 0);
       transform: translate(650px, 0);
     }
   }
@@ -86,6 +95,7 @@
     }
     &.is-move {
       -webkit-transform: translate(-650px, 0);
+      -ms-transform: translate(-650px, 0);
       transform: translate(-650px, 0);
     }
   }
@@ -96,6 +106,7 @@
     }
     &.is-move {
       -webkit-transform: translate(975px, 0);
+      -ms-transform: translate(975px, 0);
       transform: translate(975px, 0);
     }
   }
@@ -106,6 +117,7 @@
     }
     &.is-move {
       -webkit-transform: translate(650px, 0);
+      -ms-transform: translate(650px, 0);
       transform: translate(650px, 0);
     }
   }
@@ -116,6 +128,7 @@
     }
     &.is-move {
       -webkit-transform: translate(-650px, 0);
+      -ms-transform: translate(-650px, 0);
       transform: translate(-650px, 0);
     }
   }
@@ -126,6 +139,7 @@
     }
     &.is-move {
       -webkit-transform: translate(-975px, 0);
+      -ms-transform: translate(-975px, 0);
       transform: translate(-975px, 0);
     }
   }
@@ -136,6 +150,7 @@
     }
     &.is-move {
       -webkit-transform: translate(975px, 0);
+      -ms-transform: translate(975px, 0);
       transform: translate(975px, 0);
     }
   }
@@ -154,72 +169,84 @@
     &--comment {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(200%, 0);
         transform: translate(200%, 0);
       }
     }
     &--leader {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(-200%, 0);
         transform: translate(-200%, 0);
       }
     }
     &--sort {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(200%, 0);
         transform: translate(200%, 0);
       }
     }
     &--definition {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(-200%, 0);
         transform: translate(-200%, 0);
       }
     }
     &--wireframe {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(200%, 0);
         transform: translate(200%, 0);
       }
     }
     &--schedule {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(-200%, 0);
         transform: translate(-200%, 0);
       }
     }
     &--html {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(200%, 0);
         transform: translate(200%, 0);
       }
     }
     &--css {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(-200%, 0);
         transform: translate(-200%, 0);
       }
     }
     &--javascript {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(200%, 0);
         transform: translate(200%, 0);
       }
     }
     &--cms {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(-200%, 0);
         transform: translate(-200%, 0);
       }
     }
     &--developer {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(200%, 0);
         transform: translate(200%, 0);
       }
     }
     &--version {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(-200%, 0);
         transform: translate(-200%, 0);
       }
     }
@@ -242,72 +269,84 @@
     &--comment {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
       }
     }
     &--leader {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
     }
     &--sort {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
       }
     }
     &--definition {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
     }
     &--wireframe {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
       }
     }
     &--schedule {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
     }
     &--html {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
       }
     }
     &--css {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
     }
     &--javascript {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
       }
     }
     &--cms {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
     }
     &--developer {
       &.is-move {
         -webkit-transform: translate(-100%, 0);
+        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
       }
     }
     &--version {
       &.is-move {
         -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
     }
